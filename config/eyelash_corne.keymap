@@ -96,10 +96,10 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT                             &rgb_ug RGB_BRI                   &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&trans  &trans        &mkp LCLK     &mkp MCLK  &mkp RCLK  &mkp MB4             &rgb_ug RGB_HUI  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &trans
-&trans  &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5   &trans                     &rgb_ug RGB_BRD                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &out OUT_TOG
-                                    &trans     &trans     &trans                                                                  &trans     &trans     &trans
+&trans  &kp EXCL  &kp AT  &kp HASH  &kp DLLR        &kp PRCNT                             &rgb_ug RGB_BRI                   &kp CARET             &kp AMPS               &kp ASTRK  &trans    &trans  &kp BSPC
+&trans  &trans    &trans  &trans    &kp UNDERSCORE  &kp MINUS            &rgb_ug RGB_HUI  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LBKT   &kp RBKT  &trans  &trans
+&trans  &trans    &trans  &trans    &kp EQUAL       &kp PLUS   &trans                     &rgb_ug RGB_BRD                   &kp LT                &kp GT                 &kp LBRC   &kp RBRC  &trans  &trans
+                          &trans    &trans          &trans                                                                  &trans                &trans                 &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -108,10 +108,10 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&studio_unlock  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                   &none                   &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
-&trans          &trans      &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &rgb_ug RGB_SPD  &none  &rgb_ug RGB_SPI  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
-&trans          &sys_reset  &trans     &bootloader  &trans     &mkp MB5  &kp C_MUTE                     &none                   &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
-                                       &trans       &trans     &trans                                                           &trans       &trans     &trans
+&studio_unlock  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                   &none                          &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
+&trans          &trans      &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &rgb_ug RGB_SPD  &out OUT_TOG  &rgb_ug RGB_SPI  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
+&trans          &sys_reset  &trans     &bootloader  &trans     &mkp MB5  &kp C_MUTE                     &none                          &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
+                                       &trans       &trans     &trans                                                                  &trans       &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
