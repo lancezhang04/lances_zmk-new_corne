@@ -84,10 +84,10 @@
         lower_layer {
             display-name = "VIM";
             bindings = <
-&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                            &rgb_ug RGB_COLOR_HSB(0,0,100)               &kp N6     &kp N7    &kp N8  &kp N9     &kp N0    &kp BSPC
-&trans  &trans  &trans  &trans  &trans  &trans                &bt BT_PRV  &bt BT_CLR                       &bt BT_NXT  &kp LEFT   &kp DOWN  &kp UP  &kp RIGHT  &kp HOME  &kp PG_UP
-&trans  &trans  &trans  &trans  &trans  &trans  &kp C_MUTE                &rgb_ug RGB_COLOR_HSB(0,100,50)              &trans     &trans    &trans  &trans     &kp END   &kp PG_DN
-                        &trans  &trans  &trans                                                                         &kp ENTER  &trans    &trans
+&trans  &kp N1  &kp N2          &kp N3           &kp N4     &kp N5                                &rgb_ug RGB_COLOR_HSB(0,0,100)               &kp N6     &kp N7    &kp N8  &kp N9     &kp N0    &kp BSPC
+&trans  &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp B      &kp W                     &bt BT_PRV  &bt BT_CLR                       &bt BT_NXT  &kp LEFT   &kp DOWN  &kp UP  &kp RIGHT  &kp HOME  &kp PG_UP
+&trans  &trans  &kp LC(O)       &kp LC(I)        &kp CARET  &kp DOLLAR  &kp C_MUTE                &rgb_ug RGB_COLOR_HSB(0,100,50)              &kp I      &kp A     &trans  &trans     &kp END   &kp PG_DN
+                                &trans           &trans     &trans                                                                             &kp ENTER  &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
