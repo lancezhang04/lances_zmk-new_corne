@@ -46,7 +46,7 @@ layers:
   - LGUI
   - VIM
   - {t: '$$mdi:keyboard-space$$', h: Fn}
-  - {t: '$$mdi:backspace$$', h: Fn}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - SYMBOL
   - $$mdi:apple-keyboard-option$$
   VIM:
@@ -193,7 +193,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
