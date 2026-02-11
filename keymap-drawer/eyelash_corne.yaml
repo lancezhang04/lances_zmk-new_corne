@@ -163,10 +163,10 @@ layers:
   - F11
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:volume-off$$
+  - PLAY PAUSE
+  - $$mdi:brightness-7$$
+  - $$mdi:brightness-5$$
   - RGB SPD
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - RGB SPI
