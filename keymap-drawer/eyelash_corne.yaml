@@ -121,10 +121,10 @@ layers:
   - RGB HUI
   - RGB TOG
   - RGB EFF
-  - (
-  - )
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
+  - (
+  - )
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -135,10 +135,10 @@ layers:
   - +
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB BRD
-  - <
-  - '>'
   - '{'
   - '}'
+  - <
+  - '>'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
